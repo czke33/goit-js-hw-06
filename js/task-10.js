@@ -33,6 +33,9 @@ function createBoxes(amount) {
       );
     }
   } else {
-    boxes.insertAdjacentHTML("beforeend", `<p>Wpisz liczbę od 1 do 100</p>`);
+    boxes.insertAdjacentHTML(
+      "beforeend",
+      `<p>Eneter a number from 1 to 100</p>`
+    );
   }
 }
