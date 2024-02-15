@@ -35,7 +35,7 @@ function createBoxes(amount) {
   } else {
     boxes.insertAdjacentHTML(
       "beforeend",
-      `<p>Eneter a number from 1 to 100</p>`
+      `<p>Enter a number from 1 to 100</p>`
     );
   }
 }
